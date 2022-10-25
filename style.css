@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0.9rem;
     background-color: #EDF2F8;
     font-family: 'Barlow Semi Condensed', sans-serif; 
