@@ -1,0 +1,157 @@
+* { 
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    height: 100vh;
+    padding: 0.9rem;
+    background-color: #EDF2F8;
+    font-family: 'Barlow Semi Condensed', sans-serif; 
+}
+ .grid_layout { 
+    /* padding: 2rem;   */
+    display: grid;
+    gap: 1.9rem;
+    margin: 1rem;
+}
+
+/* Grid Template Areas Method*/
+/*.grid_layout { 
+    padding: 1.5rem;  
+    display: grid;
+    grid-template-areas: 
+    'one' 
+    'two' 
+    'three' 
+    'four' 
+    'five';
+    gap: 1.7rem;
+}
+
+.testimonial_1 {
+    grid-area: one;
+}
+.testimonial_2 {
+    grid-area: two;
+}
+.testimonial_3 {
+    grid-area: three;
+}
+.testimonial_4 {
+    grid-area: four;
+}
+.testimonial_5 {
+    grid-area: five;
+} */
+
+@media (min-width: 60em) {
+   .grid_layout {
+        margin: 3rem;   
+        grid-template-columns: repeat(4, 1fr);
+   }
+   .grid_layout_col_span2 {
+        grid-column: span 2;
+   }
+   .testimonial_5 {
+        grid-row: 1;
+        grid-column: 4;
+        grid-row-end: span 2;
+   }
+
+   .avi_and_name {
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    /* margin-left: 1.25rem; */
+}
+
+/* Grid Template Areas Method*/
+   /* .grid_layout {
+        grid-template-areas: 
+        'one one two five'
+        'three four four five';
+    } */
+}
+
+/* Avi, Name and Status design */
+.avi_and_name {
+    display: flex;
+    /* margin-top: -10px;
+    margin-bottom: -15px; */
+    /* margin-left: 1.25rem; */
+}
+img {
+    border-radius: 50px; 
+}
+.testimonial_1 img{
+    border: 3px solid #c17fdb;
+}
+.testimonial_4 img{
+    border: 3px solid #c17fdb;
+}
+.name_and_status {
+    margin-top: 0.5rem;
+    margin-left: 0.9rem;
+}
+.name_and_status p{
+    margin: 0.1rem;
+}
+.name {
+    font-size: 13px;
+}
+.stauts {
+    font-size: 13px;
+    opacity: 50%;
+}
+
+
+/* Background-image and color, Texts, Boxes and Borders */
+.content_container {
+    /* border: 1px solid red; */
+    margin: 1rem;
+    padding: 1rem;
+}
+.testimonial{
+    /*border: 2px solid red;*/
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 8.5px;
+}
+.h4andp h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    
+    /* margin-bottom: 5px; */
+}
+.h4andp p{
+    
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    opacity: 70%; 
+    
+}
+.testimonial_1 {
+    background: url("./images/bg-pattern-quotation.svg") no-repeat 84% top;
+    background-color: #733FC8;
+    color: #FEEAFF;
+    
+}
+.testimonial_2 {
+    background-color: #49556B;
+    color: #FAFFFF;
+}
+.testimonial_3 {
+    background-color: #FFFFFF;
+    color: #50545F;
+}
+.testimonial_4 {
+    background-color: #18202D;
+    color: #F9FFFF;
+}
+.testimonial_5 {
+    background-color: #FFFFFF;
+    color: #50545F;
+
+}
+
