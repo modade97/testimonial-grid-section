@@ -16,6 +16,7 @@ body {
     gap: 1.9rem;
     place-content: center;
     margin: 1rem;
+    padding: 0.9rem;
 }
 
 /* Grid Template Areas Method*/
