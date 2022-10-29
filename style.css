@@ -122,15 +122,12 @@ img {
 .h4andp h4{
     font-size: 1.2rem;
     font-weight: 600;
-    line-height: 1.5;
     
     /* margin-bottom: 5px; */
 }
 .h4andp p{
-    
     font-size: 0.8rem;
     font-weight: 500;
-    line-height: 1.2rem;
     opacity: 70%; 
     
 }
@@ -138,7 +135,6 @@ img {
     background: url("./images/bg-pattern-quotation.svg") no-repeat 84% top;
     background-color: #733FC8;
     color: #FEEAFF;
-    
 }
 .testimonial_2 {
     background-color: #49556B;
