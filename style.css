@@ -8,7 +8,7 @@ body {
     padding: 0.9rem;
     background-color: #EDF2F8;
     font-family: 'Barlow Semi Condensed', sans-serif; 
-    line-height: 1.5;
+    line-height: 1.2;
 }
  .grid_layout { 
     max-width: 90rem;
@@ -129,6 +129,7 @@ img {
 .h4andp p{
     font-size: 0.8rem;
     font-weight: 500;
+    line-height: 1.4;
     opacity: 70%; 
     
 }
