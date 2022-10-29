@@ -64,8 +64,8 @@ body {
 
    .avi_and_name {
     display: flex;
-    margin-top: -10px;
-    margin-bottom: -15px;
+/*     margin-top: -10px;
+    margin-bottom: -15px; */
     /* margin-left: 1.25rem; */
 }
 
@@ -123,6 +123,7 @@ img {
 .h4andp h4{
     font-size: 1.2rem;
     font-weight: 600;
+    margin-top: 1rem;
     
     /* margin-bottom: 5px; */
 }
@@ -131,6 +132,7 @@ img {
     font-weight: 500;
     line-height: 1.4;
     opacity: 70%; 
+    margin-top: 1rem;
     
 }
 .testimonial_1 {
