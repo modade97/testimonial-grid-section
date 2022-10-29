@@ -1,17 +1,19 @@
 * { 
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
-    margin: 0px;
-/*    min-height: 100vh; */
+    min-height: 100vh;
     padding: 0.9rem;
     background-color: #EDF2F8;
     font-family: 'Barlow Semi Condensed', sans-serif; 
 }
  .grid_layout { 
-    /* padding: 2rem;   */
+    max-width: 90rem;
     display: grid;
     gap: 1.9rem;
+    place-content: center;
     margin: 1rem;
 }
 
