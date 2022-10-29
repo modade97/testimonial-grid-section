@@ -80,8 +80,8 @@ body {
 /* Avi, Name and Status design */
 .avi_and_name {
     display: flex;
-    /* margin-top: 10px;
-    margin-bottom: -15px; */
+    margin-top: 10px;
+    margin-bottom: -15px;
     /* margin-left: 1.25rem; */
 }
 img {
